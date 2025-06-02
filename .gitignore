@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+.env
+.venv/
+
+# ROS & Raspberry Pi
+build/
+devel/
+*.launch
+
+# Embedded/Drone Files
+*.bin
+*.hex
+*.elf
+*.mavlink
+flight_logs/
+*.tlog
+*.mp4
+*.mov
+
+# IDE & System Files
+.vscode/
+.idea/
+.DS_Store

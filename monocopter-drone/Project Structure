@@ -1,0 +1,15 @@
+monocopter-drone/
+│
+├── firmware/
+│   └── main.py               ← Raspberry Pi flight control + sensor reading
+│
+├── simulation/
+│   ├── gazebo_sim.py         ← For Gazebo + ROS
+│   ├── unity/                ← Placeholder for Unity sim
+│   └── webots/               ← Placeholder for Webots sim
+│
+├── ai/
+│   └── object_tracking.py    ← For object/intruder detection using OpenCV
+│
+├── README.md                 ← Project description and setup guide
+└── .gitignore                ← Files to ignore in Git
